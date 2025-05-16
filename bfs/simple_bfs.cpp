@@ -16,7 +16,7 @@ private:
     int V;  // Number of vertices
     vector<vector<int>> adj; // Adjacency list
     vector<bool> visited; // Vector to mark visited vertices
-    queue<int> q; // Queue to store vertices to visit   
+    queue<int> q; // Queue to store vertices to visit  -> FIFO
 
 public:
     int get_size() const { return V; } // Returns the number of vertices
